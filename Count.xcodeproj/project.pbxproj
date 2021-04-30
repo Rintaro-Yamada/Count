@@ -15,6 +15,8 @@
 		0CEA14F6263A389B0004CC0A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CEA14F4263A389B0004CC0A /* LaunchScreen.storyboard */; };
 		0CEA1501263A389B0004CC0A /* CountTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CEA1500263A389B0004CC0A /* CountTests.swift */; };
 		0CEA150C263A389B0004CC0A /* CountUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CEA150B263A389B0004CC0A /* CountUITests.swift */; };
+		0CEA151D263A404E0004CC0A /* haikei.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 0CEA151C263A404E0004CC0A /* haikei.jpeg */; };
+		0CEA1522263A415B0004CC0A /* haikeii.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 0CEA1521263A415B0004CC0A /* haikeii.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		0CEA1507263A389B0004CC0A /* CountUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CountUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CEA150B263A389B0004CC0A /* CountUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountUITests.swift; sourceTree = "<group>"; };
 		0CEA150D263A389B0004CC0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0CEA151C263A404E0004CC0A /* haikei.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = haikei.jpeg; path = ../../haikei.jpeg; sourceTree = "<group>"; };
+		0CEA1521263A415B0004CC0A /* haikeii.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = haikeii.jpeg; path = ../../haikeii.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +103,12 @@
 		0CEA14E8263A389A0004CC0A /* Count */ = {
 			isa = PBXGroup;
 			children = (
+				0CEA151C263A404E0004CC0A /* haikei.jpeg */,
 				0CEA14E9263A389A0004CC0A /* AppDelegate.swift */,
 				0CEA14EB263A389A0004CC0A /* SceneDelegate.swift */,
 				0CEA14ED263A389A0004CC0A /* ViewController.swift */,
 				0CEA14EF263A389A0004CC0A /* Main.storyboard */,
+				0CEA1521263A415B0004CC0A /* haikeii.jpeg */,
 				0CEA14F2263A389B0004CC0A /* Assets.xcassets */,
 				0CEA14F4263A389B0004CC0A /* LaunchScreen.storyboard */,
 				0CEA14F7263A389B0004CC0A /* Info.plist */,
@@ -232,7 +238,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				0CEA14F6263A389B0004CC0A /* LaunchScreen.storyboard in Resources */,
+				0CEA1522263A415B0004CC0A /* haikeii.jpeg in Resources */,
 				0CEA14F3263A389B0004CC0A /* Assets.xcassets in Resources */,
+				0CEA151D263A404E0004CC0A /* haikei.jpeg in Resources */,
 				0CEA14F1263A389A0004CC0A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
